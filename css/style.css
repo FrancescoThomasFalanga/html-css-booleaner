@@ -1,3 +1,4 @@
+/* Gestione Generale */
 body {
     margin: 0%;
 }
@@ -12,4 +13,52 @@ header {
     margin-left: 100px;
     margin-top: 35px;
 
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* /Gestione Generale */
+
+
+/* Intestazione */
+h1 {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 0%;
+}
+
+#grey {
+    color: grey;
+}
+
+h4 {
+    margin: 0%;
+}
+
+#azul {
+    color: rgb(0, 201, 236);
+}
+
+h6 {
+    margin: 0%;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+/* /Intestazione */
+
+
+/* specs */
+section span {
+    display: block;
+    font-size: 11px;
+}
+
+#space {
+    margin-bottom: 30px;
+}
+
+li {
+    margin-left: -25px;
 }
