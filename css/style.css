@@ -47,7 +47,7 @@ h6 {
     margin-bottom: 20px;
 }
 
-/* specs */
+/* Specs */
 section span {
     display: block;
     font-size: 11px;
@@ -64,18 +64,18 @@ li {
 .underline {
     background-color: yellow;
 }
-/* /specs */
+/* /Specs */
 
-/* TABLE */
+/* Table */
 .content-table {
-    width: auto;
     margin-top: 30px;
     border-collapse: collapse;
     text-align: left;
+    box-sizing: content-box;
 }
 
 .content-table td {
-    padding: 12px 0px;
+    padding: 20px 170px 20px 0px;
 }
 
 #tableblue {
@@ -90,9 +90,9 @@ li {
 #tablewhite {
     background-color: rgb(255, 255, 255);
 }
-/* /TABLE */
+/* /Table */
 
-/* FOOTER */
+/* Footer */
 footer {
     margin-left: 100px;
     margin-right: 100px;
@@ -131,4 +131,4 @@ h5 {
     font-weight: 700;
     padding: 10px 10px;
 }
-/* /FOOTER */
+/* /Footer */
