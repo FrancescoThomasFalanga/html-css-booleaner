@@ -46,8 +46,6 @@ h6 {
     margin-top: 3px;
     margin-bottom: 20px;
 }
-/* /Intestazione */
-
 
 /* specs */
 section span {
@@ -66,12 +64,14 @@ li {
 .underline {
     background-color: yellow;
 }
+/* /specs */
 
 /* TABLE */
 .content-table {
+    width: auto;
     margin-top: 30px;
-    text-align: left;
     border-collapse: collapse;
+    text-align: left;
 }
 
 .content-table td {
@@ -84,10 +84,51 @@ li {
 }
 
 #tableazul {
-    background-color: rgba(0, 217, 255, 0.397);
+    background-color: rgba(19, 220, 255, 0.363);
 }
 
 #tablewhite {
     background-color: rgb(255, 255, 255);
 }
 /* /TABLE */
+
+/* FOOTER */
+footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: large;
+    color: grey;
+}
+
+.texture-back1 {
+    background-image: url(/img/monitor.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.texture-back2 {
+    background-image: url(/img/graph.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.quadrato {
+    height: 150px;
+    width: 200px;
+}
+
+.inside {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+/* /FOOTER */
